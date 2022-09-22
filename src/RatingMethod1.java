@@ -1,7 +1,7 @@
 public class RatingMethod1 {
 /*
-
     public static String rating (int totalSAT) {
+
         if (totalSAT > 400 && totalSAT < 800) {
             return "not competetive";
         } else if (totalSAT >= 800 && totalSAT < 1200) {
@@ -9,12 +9,12 @@ public class RatingMethod1 {
         } else if (totalSAT >= 1200 && totalSAT <= 1600) {
             return "highly competitive";
         }
-    }
 
- */
+    }
+*/
 
     public static void main(String[] args) {
-/*
+        /*
         String studentRating;
         int studentScore;
 
@@ -39,6 +39,7 @@ public class RatingMethod1 {
         studentScore = 1700;
         studentRating = rating(studentScore);
         System.out.println("Student Rating (" + studentScore + "): " + studentRating);
-*/
+
+         */
     }
 }

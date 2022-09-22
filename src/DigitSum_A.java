@@ -11,24 +11,16 @@ public class DigitSum_A {
     }
 
     public static int digitSum(int number) {
-        if (number < 0) number *= -1;   // make it a positive integer
         int sum = 0;
-        while (number > 0) {
-            int digit = number % 10;
-            sum += digit;
-            number /= 10;
-        }
+
+
         return sum;
     }
 
     public static int digitMin(int number) {
-        if (number < 0) number *= -1;   // make it a positive integer
-        int min = 9;
-        while (number > 0) {
-            int digit = number % 10;
-            if(min > digit) min = digit;
-            number /= 10;
-        }
+        int min = 0;
+
+
         return min;
     }
 }
